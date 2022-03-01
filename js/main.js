@@ -14,8 +14,8 @@ const userInput = document.getElementById('userinput');
 function palindromo(userInput){
     let i = 0;
     let switcho = true; /* La parola è palindroma*/    
-    while (i < (userInput.lenght / 2) && switcho == true){         
-      if (userInput[i] != userInput[userInput.lenght - i - 1]){
+    while (i < (userInput.length / 2) && switcho == true){         
+      if (userInput[i] != userInput[userInput.length - i - 1]){
         switcho = false;
       }
       i++;
